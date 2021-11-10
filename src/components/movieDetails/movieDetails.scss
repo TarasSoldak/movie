@@ -1,0 +1,32 @@
+.detail-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    height: 81vh;
+    font-size: 18px;
+    img {
+        width: 350px;
+    }
+    h1 {
+        font-size: 45px;
+        margin: 10px 0 5px 0;
+    }
+    span {
+        color: rgb(187, 70, 70);
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .plot {
+        padding-right: 30px;
+        margin: 20px 0 50px 0;
+        line-height: 25px;
+    }
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin-bottom: 25px;
+    }
+}
